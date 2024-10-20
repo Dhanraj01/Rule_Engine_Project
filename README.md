@@ -39,7 +39,7 @@ SQLite (for development)
 Setup Instructions
 1. Clone the Repository
 
-git clone https://github.com/your-username/rule-engine.git
+git clone https://github.com/dhanraj01/rule-engine.git
 cd rule-engine
 
 
