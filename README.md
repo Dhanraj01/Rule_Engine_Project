@@ -38,8 +38,7 @@ SQLite (for development)
 
 Setup Instructions
 1. Clone the Repository
-bash
-Copy code
+
 git clone https://github.com/your-username/rule-engine.git
 cd rule-engine
 
@@ -52,20 +51,15 @@ venv\Scripts\activate
 
 
 3. Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
 
 4. Run Database Migrations
-bash
-Copy code
 flask db init
 flask db migrate
 flask db upgrade
 
 5. Start the Application
-bash
-Copy code
+
 python backend/api.py
 Your Flask app will run locally at http://127.0.0.1:5000/.
 
